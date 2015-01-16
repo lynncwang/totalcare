@@ -8,6 +8,7 @@ body {
 
 .ss-form-container, .ss-resp-card {
   background-color: rgb(255,250,235);
+  width: 100%;
 }
 
 .ss-footer, .ss-response-footer {
