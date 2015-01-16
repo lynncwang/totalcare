@@ -45,12 +45,14 @@ body {
 
 .ss-item {
   font-size: 1.250rem;
-  padding: 20px;
+  padding: 0px 20px;
+  margin: 15px 0px;
 }
 
 .ss-choices {
   font-size: 1.080rem;
   list-style: none;
+  padding-left: 8px;
 }
 
 body {
@@ -246,12 +248,14 @@ input[type="text"] {
     padding: 5px;
 }
 
-.extrapadding {
-    margin-left: 17px;
-}
-
 input[type="radio"] {
     transform: scale(2);
+}
+
+.radio input[type=radio], 
+.radio-inline input[type=radio] {
+    position: relative;
+    margin-left: -50x;
 }
 
 #ss-submit {
@@ -262,8 +266,17 @@ input[type="radio"] {
     color: white;
     border-radius: 5px;
     border: darkgreen;
-    margin-right: 35px;
     float: right;
     text-align: center;
+    margin-right: 20px;
     padding-bottom: 15px;
+}
+
+.ss-form-container {
+    max-width: 1000px;
+}
+
+.ss-top-of-page {
+    padding-top: -1rem;
+    margin-bottom: -3rem;
 }
