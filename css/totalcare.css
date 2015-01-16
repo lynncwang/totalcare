@@ -142,7 +142,7 @@ body {
   font-weight: 400;
   font-size: 2.0rem;
   font-style: normal;
-  margin-left: 5px;
+  margin-left: 15px;
 }
 
 .error-message, .required-message, .ss-required-asterisk {
@@ -255,7 +255,7 @@ input[type="radio"] {
 .radio input[type=radio], 
 .radio-inline input[type=radio] {
     position: relative;
-    margin-left: -50x;
+    margin-left: -15px !important;
 }
 
 .jfk-button-action,
