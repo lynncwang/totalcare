@@ -278,6 +278,10 @@ input[type="radio"] {
 }
 
 .ss-top-of-page {
-    padding-top: -1rem;
-    margin-bottom: -3rem;
+    padding-top: -1rem !important;
+    margin-bottom: -3rem !important;
+}
+
+.goog-inline-block {
+    display: inline important!;
 }
